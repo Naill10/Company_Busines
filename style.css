@@ -1,5 +1,5 @@
  :root{
-      --primary:#f7b500;
+      --primary:#f7a500;
       --dark:#0b0b0f;
       --dark2:#111217;
       --muted:#6b7280;
@@ -103,3 +103,26 @@
       background:var(--primary);
       border:none;
     }
+
+    .section-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.title-line {
+  text-align: center;
+}
+
+.title-line span {
+  display: inline-block;
+  width: 30px;
+  height: 3px;
+  background: #000;
+  margin: 0 4px;
+}
+.content-line {
+  margin-top: 100px;
+}
+.content-line h2 {
+  color: var(--primary);
+}
